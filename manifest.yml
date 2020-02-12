@@ -1,0 +1,4 @@
+applications:
+- name: dna-detector
+  random-route: true
+  memory: 128M
