@@ -1,5 +1,7 @@
+buildpacks:
+    - nodejs_buildpack
 applications:
-- name: dna-detector
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  - name: dna-detector
   random-route: true
   memory: 128M
+  command: npm start
