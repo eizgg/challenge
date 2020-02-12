@@ -1,11 +1,8 @@
-  ---
-  buildpacks:
-    - nodejs-buildpack
-  memory: 256M
-
+---
 applications:
 - name: dna-detector
   memory: 256M
   command: npm start
-
-    
+  buildpacks:
+    - nodejs-buildpack
+  
