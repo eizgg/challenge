@@ -41,7 +41,7 @@ class MyForm extends React.Component {
   render()  {
     return (
         <div>
-            <center><h1>Enzo Zalazar Challenge</h1></center>
+            <center><h1>DNA- DETECTOR</h1></center>
             
             <form  onSubmit={this.mySubmitHandler}> 
             
