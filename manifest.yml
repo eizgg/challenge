@@ -4,5 +4,5 @@ applications:
   memory: 256M
   command: npm start
   buildpacks:
-    - nodejs-buildpack
+    - https://github.com/cloudfoundry/nodejs-buildpack
   
