@@ -1,14 +1,7 @@
   ---
-defaults: &defaults
-  buildpacks:
-    - https://github.com/cloudfoundry/nodejs-buildpack
-  memory: 256M
-
-
 applications:
 - name: dna-detector
-  <<: *defaults
-random-route: true
-  <<: *defaults
-  memory: 256M
+  buildpack: nodejs-buildpack
+  memory: 3G
+  health-check-type: 256M
   command: npm start
