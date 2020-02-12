@@ -7,3 +7,11 @@ URL de API:
 enviar ADN mediante HTTP POST
 
 https://69324d3b.us-south.apigw.appdomain.cloud/mutant/mutant
+
+
+
+
+URL de aplicación web:
+https://dna-detector.mybluemix.net/
+
+insertar en formato json la consulta.
