@@ -1,7 +1,7 @@
 ---
 applications:
 - name: dna-detector
-  memory: 256M
+  memory: 700M
   command: npm start
   buildpacks:
     - https://github.com/cloudfoundry/nodejs-buildpack
