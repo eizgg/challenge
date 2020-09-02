@@ -1,4 +1,4 @@
-# challenge
+# DNA Detector
 
 api desplegada en IBM cloud que recibe por parámetro json con ADN.
 
